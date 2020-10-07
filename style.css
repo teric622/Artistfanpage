@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+
+body{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #40B7E3 0%, #99403C 0.01%, #973D3C 50%, #D2254E 100%);
+}
+
+.imghead{
+    /* height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top; */
+    position: absolute;
+width: 1440px;
+height: 337px;
+left: 0px;
+top: 0px;
+object-fit: cover;
+}
+
+.banner{
+    height: 50vh;
+  width: 100%;
+  position: relative;
+}
+
+
+.form{
+
+margin-left: 40%;
+margin-top: 10%;
+width:400px;
+background-color: beige;
+}
+/* 
+
+.middle{
+    height:70vh;
+    background: linear-gradient(#f3d1ff, #f3d1ff);
+} */
+
+
+.footer{
+    background-color: beige;
+    height: 10%;
+}

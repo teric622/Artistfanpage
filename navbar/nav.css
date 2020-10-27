@@ -15,7 +15,7 @@ body {
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
-    z-index: 20;
+    z-index: 9999;
   }
   
   .header ul {
@@ -35,7 +35,7 @@ body {
   
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #f4f4f4;
+    background-color: rgb(159, 161, 161);
   }
   
   .header .logo {

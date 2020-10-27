@@ -9,94 +9,6 @@ html, body {
 
 
 
-ul{
-    list-style-type: none;
-}
-
-a{
-    text-decoration: none;
-    color:white;
-}
-
-.flex-row{
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-}
-
-.nav{
-    background: transparent;
-    padding: 0 2rem;
-    height: 0rem;
-    min-height:8vh;
-    overflow: hidden;
-}
-
-
-.nav .nav-menu{
-    justify-content: space-between;
-}
-
-
-.nav .nav-items{
-    display:flex;
-    margin:0;
-}
-
-.nav .nav-items .nav-link {
-padding: 1.6rem 1rem;
-font-size: 1.1rem;
-position: relative;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-
-.nav .nav-items .nav-link:hover{
-    background-color: skyblue;
-}
-
-.nav .nav-items .nav-link:hover a{
-    color: white;
-}
-
-.nav .nav-brand a{
-    font-size: 1.6rem;
-    padding: 1rem 0;
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.nav .social{
-    padding: 1.4rem 0;
-}
-
-.nav .social {
-    padding:0.2rem
-}
-
-.nav .social:hover{
-    padding:0.2rem;
-    color: red;
-}
-
-@media only screen and (max-width:750px){
-    .nav .nav-menu .nav{
-     flex-direction: column;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 body{
@@ -162,32 +74,8 @@ p{
 }
 
 
-.logo {
-    flex: 1 1 auto;
-    margin-left: 10%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 35px;
-}
-img{
-    width: 20%;
-}
 
-.banner-area{
-    position: relative;
-
-    width: 80%;
-}
-
-
-#footer {
-    position: absolute;
-    bottom: 0px;
-    background-color: transparent;
-    width: 80%;
-    text-align: center;
-    margin-left: 10% ;
-    color: rgb(233, 233, 233);
-    text-shadow: 2px 2px black;
+.cpy{
+    margin-left: 35%;
+    color: whitesmoke;
 }

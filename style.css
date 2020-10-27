@@ -1,25 +1,175 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
+
 }
-
-
-
-
 
 
 body{
-    background-color: aqua;
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(180deg, #40B7E3 0%, #99403C 0.01%, #973D3C 50%, #D2254E 100%);
+    background: url("./assets/concert\ 1.png");
 }
 
+
+
+
+form {
+    display: block;
+    margin-top: 0em;
+ 
+}
+
+.img{
+    background-image: url("/looo.jpg");
+     -webkit-background-size: cover;
+ background-size: cover;
+ background-position: center center;
+ /* filter: blur(1px);
+ -webkit-filter: blur(1px); */
+
+}
+
+
+.body{
+    height:120vh;
+    width: auto;
+    justify-content: space-around;
+    align-self: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    display: flex;
+}
+
+
+.log{
+    margin-left: 40%;
+    margin-top: 10%;
+    color: white;
+}
+
+
+.form{
+    width: 50%;
+    position: relative;
+    height: 50px;
+   margin-left: 28%;
+   overflow: hidden;
+   background: transparent;
+}
+
+
+.form input{
+    width: 100%;
+    height: 100%;
+    color: red;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+.form label {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 100%;
+    width:100%;
+    pointer-events: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+}
+
+
+.form label::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #5fa8d3;
+    left: 0px;
+    bottom:-1px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    background: transparent;
+}
+
+.content-name{
+    position: absolute;
+    bottom: 5px;
+    left:0px;
+    transition: all 0.5s ease-out;
+    background: transparent;
+    color: white;
+}
+
+.form input:focus + .label-name .content-name, .form input:valid + .label-name .content-name {
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: cadetblue;
+ 
+}
+
+
+.form input:focus+.label-name::after, .form input:valid + .label-name::after{
+
+    transform: translateX(0%);
+}
+
+.forms{
+    width: 50%;
+   
+    height: 50px;
+   margin-left: 28%;
+   overflow: hidden;
+   background: transparent;
+
+   
+}
+
+
+
+
+
+input[type="submit" i] {
+    appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: -internal-light-dark(buttontext, rgb(170, 170, 170));
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(74, 74, 74));
+    box-sizing: border-box;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    width: 50%;
+    position: relative;
+    height: 50px;
+   margin-left: 28%;
+   overflow: hidden;
+border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .imghead{
-    /* height: 100%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: top; */
+    object-position: top;
     position: absolute;
 width: 1440px;
 height: 337px;
@@ -49,8 +199,8 @@ background-color: beige;
     background: linear-gradient(#f3d1ff, #f3d1ff);
 } */
 
-
+/* 
 .footer{
     background-color: beige;
     height: 10%;
-}
+}  */

@@ -2,26 +2,44 @@
 <html>
 <head>
 <title>Title of the document</title>
+<link rel="stylesheet" href="./navbar/nav.css">
+<link rel="stylesheet" href="/footer/footer.css">
+<link rel="stylesheet" href="media.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 </head>
 
 <body>
-<div class="media">
+    <header class="header">
+        <a href="" class="logo">CSS Nav</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/media.html">Media</a></li>
+          <li><a href="/index.html">Log Out</a></li>
+        </ul>
+      </header>
+<div class="vid">
 
-    <header>
-        <h2 class ="mediah2">
-            MEDIA
-        </h2>
-    </header>
-    <hr>
+      <iframe width="620" height="315" src="https://www.youtube.com/embed/V5M2WZiAy6k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="637" height="315" src="https://www.youtube.com/embed/cnRB2CgUpSw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div class="mediagallery">
-<img src = "assets/unnamed.jpg">
-<img src="assets/gall.jpg">
-<img src="assets/gallone.jpg">
-<img src="assets/OneRepublic_-_I_Lived_(Official_Single_Cover).png">
+    </div>
 
 
 
+<div class="gallerycontainer">
+    <div class="box a"><img src="./assets/1.jpg"></div>
+    <div class="box b"><img src="./assets/2.jpg"></div>
+    <div class="box c"><img src="./assets/3.jpg"></div>
+    <div class="box d"><img src="./assets/4.jpg"></div>
+    <div class="box e"><img src="./assets/5.jpg"></div>
+    <div class="box f"><img src="./assets/6.png"></div>
+    <div class="box g"><img src="./assets/7.jpg"></div>
+    <div class="box h"><img src="./assets/8.png"></div>
+    <div class="box i"><img src="./assets/9.jpg"></div>
+    <div class="box j"><img src="./assets/10.png"></div>
 
 </div>
 
@@ -30,18 +48,48 @@
 
 
 
-    <iframe width="523" height="369" src="https://www.youtube.com/embed/z0rxydSolwU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-    <footer>
-        <address style="margin-left: 200px;" >
-    
-    </address>
-    <p style="margin-left: 500px;">&copy; 2020 One republic</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>1010 Avenue, sw 54321, chandigarh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </div>
+                    </div>
+                  
+            </div>
+        </div>
     </footer>
     
-
-</div>
 </body>
 
 </html>
